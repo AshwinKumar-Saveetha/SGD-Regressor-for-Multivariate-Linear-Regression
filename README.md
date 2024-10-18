@@ -9,11 +9,16 @@ To write a program to predict the price of the house and number of occupants in 
 
 ## Algorithm
 
-1. Importing necessary liberaries
-2. Data preprocessing
-3. Spliting data int training and testing data
-4. Performing SGD-Regressor
-5. Calculating error
+### Short Algorithm for Multivariate Linear Regression with SGD
+
+1. **Load Data**: Fetch the dataset and prepare features (`X`) and targets (`Y`).
+2. **Split Data**: Divide the data into training and testing sets.
+3. **Scale Data**: Standardize features and targets using `StandardScaler`.
+4. **Initialize Model**: Set up `SGDRegressor` with `MultiOutputRegressor`.
+5. **Train Model**: Fit the model on the training data.
+6. **Predict**: Generate predictions for the test set.
+7. **Evaluate**: Calculate Mean Squared Error (MSE) between predicted and actual values.
+8. **Output Results**: Display MSE and sample predictions. 
 
 ## Program:
 ```
