@@ -9,8 +9,6 @@ To write a program to predict the price of the house and number of occupants in 
 
 ## Algorithm
 
-### Short Algorithm for Multivariate Linear Regression with SGD
-
 1. **Load Data**: Fetch the dataset and prepare features (`X`) and targets (`Y`).
 2. **Split Data**: Divide the data into training and testing sets.
 3. **Scale Data**: Standardize features and targets using `StandardScaler`.
